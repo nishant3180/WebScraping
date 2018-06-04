@@ -10,8 +10,8 @@ app.get('/', function(req, response) {
 	request('http://www.bbc.com/news', function(err, resp, html) {
         if (!err){
           const $ = cheerio.load(html);
-          console.log(html); 
-		  $('div[class=gel-layout__item gs-u-float-left@l gs-u-display-block@m gs-u-display-none@xs]').html()
+         // console.log(html); 
+		  console.log($('div[class=gel-layout__item gs-u-float-left@l gs-u-display-block@m gs-u-display-none@xs]').html());
 		  
       }
 	});
