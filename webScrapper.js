@@ -7,12 +7,7 @@ app.set('port', (process.env.PORT || 5000));
 app.get('/', function(request, response) {
 	
 	console.log("hello hi hello hi");
-	/*request('http://www.google.com/', function(err, resp, html) {
-        if (!err){
-          const $ = cheerio.load(html);
-          console.log(html); 
-      }
-	});*/
+	
 )};
 
 app.listen(app.get('port'), function() {
