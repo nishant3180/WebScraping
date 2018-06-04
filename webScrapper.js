@@ -11,7 +11,7 @@ app.get('/', function(req, response) {
         if (!err){
           const $ = cheerio.load(html);
          // console.log(html); 
-		 var outputmy = $('div[class=nw-c-most-read__items]').html();
+		 var outputmy = $('div[class=gel-wrap]').html();
 		  console.log('my output is');
 		  console.log(outputmy);
 		  
