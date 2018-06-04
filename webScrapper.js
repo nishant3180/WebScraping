@@ -11,7 +11,9 @@ app.get('/', function(req, response) {
         if (!err){
           const $ = cheerio.load(html);
          // console.log(html); 
-		  console.log($('div[class=nw-c-most-read__items gel-layout gel-layout--no-flex]').html());
+		 var outputmy = $('div[class=nw-c-most-read__items gel-layout gel-layout--no-flex]').html();
+		  console.log('my output is');
+		  console.log(outputmy);
 		  
       }
 	});
