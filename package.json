@@ -12,7 +12,8 @@
   "dependencies": {
     
     "express": "4.13.3",
-	"cheerio" :"0.22.0"
+	"cheerio" :"0.22.0",
+	"request": "*"
   },
   "repository": {
     "type": "git",
