@@ -11,7 +11,7 @@ app.get('/', function(req, response) {
         if (!err){
           const $ = cheerio.load(html);
          // console.log(html); 
-		 var outputmy = $("ol[class='gel-layout__item gs-u-float-left@l gs-u-display-block@m gs-u-display-none@xs']").html();
+		 var outputmy = $("div[class='nw-c-most-read__items gel-layout gel-layout--no-flex']").html();
 		  console.log('my output is');
 		  console.log(outputmy);
 		  
