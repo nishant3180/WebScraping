@@ -1,9 +1,14 @@
 var request = require('request');
 var cheerio = require('cheerio');
+var express = require('express');
+var app = express();
 
-request('http://www.google.com/', function(err, resp, html) {
+
+app.get('/', function(request, response) {
+	request('http://www.google.com/', function(err, resp, html) {
         if (!err){
           const $ = cheerio.load(html);
           console.log(html); 
       }
-});
+	});
+)};

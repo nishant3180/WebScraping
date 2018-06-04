@@ -1,0 +1,30 @@
+{
+  "name": "node-js-getting-started",
+  "version": "0.2.5",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "webScrapper.js",
+  "scripts": {
+    "start": "node webScrapper.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3",
+	"pg": "*",
+	"body-parser": "~1.10.1",
+	"pg-promise":"5.6.2",
+	"cheerio" :"0.22.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nishant3180/WebScraping.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
