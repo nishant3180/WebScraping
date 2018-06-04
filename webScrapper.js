@@ -11,6 +11,8 @@ app.get('/', function(req, response) {
         if (!err){
           const $ = cheerio.load(html);
           console.log(html); 
+		  $('div[id=popup1]').html()
+		  
       }
 	});
 	
