@@ -14,3 +14,8 @@ app.get('/', function(request, response) {
       }
 	});*/
 )};
+
+app.listen(app.get('port'), function() {
+	console.log("hello hi hello hi");
+  console.log('Node app is running on port', app.get('port'));
+});
